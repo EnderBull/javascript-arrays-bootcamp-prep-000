@@ -57,9 +57,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array
 }
 
+<<<<<<< HEAD
 function removeElementFromBeginningOfArray(array){      
  
   return array.slice(1)
+=======
+function RemoveElementFromBeginningOfArray(array){      
+ 
+  
+  return array.slice(array.length,1)
+>>>>>>> 159db5df941c0563f2e285bf51d4ee2beab4e9c5
 }
 
 
@@ -69,6 +76,7 @@ function destructivelyRemoveElementFromEndOfArray(array,element){
   return array
 }
 
+<<<<<<< HEAD
 function removeElementFromEndOfArray(array){      
   
   return array.slice(0, array.length - 1)
@@ -77,4 +85,10 @@ function removeElementFromEndOfArray(array){
 function accessElementInArray (array, index){
  
   return array[index]
+=======
+function RemoveElementFromEndOfArray(array){      
+  
+  
+  return array.slice(0, array.length - 1)
+>>>>>>> 159db5df941c0563f2e285bf51d4ee2beab4e9c5
 }
